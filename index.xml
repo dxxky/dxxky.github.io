@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DISCOVER &amp; LEARN on Dxxky - Blogs</title>
+    <link>https://example.org/</link>
+    <description>Recent content in DISCOVER &amp; LEARN on Dxxky - Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Langflow - 一種製作 LangChain 流程原型的簡單方法(介紹和安裝)</title>
+      <link>https://example.org/blog/langflow_001/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/blog/langflow_001/</guid>
+      <description>Langflow 是一種製作 LangChain 流程原型的簡單方法。 拖放功能允許快速、輕鬆地進行實驗，而內建聊天介面則有助於即時互動。 它提供了編輯提示參數、建立鍊和代理、追蹤思考過程和導出流程的選項。
+它的存在為用戶提供了一種簡單、方便的方式來探索和開發LangChain流程的潛力。 不論使用者是初學者還是有經驗的專業人士，LangFlow都能滿足他們的需求。
+它能夠快速組裝和配置各個組件，使用戶能夠以更有效率的方式創建自訂的LangChain流程。 無論是為個人專案還是商業應用，LangFlow都能幫助使用者節省時間和精力，讓他們能夠更快地實現想法並取得成功。
+現在就來體驗LangFlow，開啟你的創新之旅吧！
+安裝Langflow &amp;nbsp; Langflow可以用兩種方法安裝，一種是pip install，步驟如下： pip install langflow 接下來，運行： python -m langflow or
+langflow run # or langflow --help 另一種是使用git clone到本地存儲，並且使用 docker-compose up，指令把所有的 Docker Container 啟動起來，步驟如下： git clone https://github.com/logspace-ai/langflow.git cd langflow docker-compose up -d Langflow介面 &amp;nbsp; 完成安裝後，預設你可以到 localhost:8080 來進入你的langflow。Langflow基本上分成幾個頁面，它們是 My Collection, API keys, Admin Page和Profile Settings。
+My Collection是Langflow中可用的Flow database，你可以在此頁面中查看和管理你的所有流程。你也可以將整個Collection下載到本地存儲，並隨時上傳以供將來使用。 Langflow提供的API金鑰功能，使用者可以輕鬆地存取Component和Flow，無需煩惱傳統的登入驗證問題。這些API Key是屬於使用者的身份識別標籤，可以通過將其放在API request的Header中進行驗證。 用戶可以透過點擊應用程式右上角的個人資料圖示來更改其個人資料設定。 這將打開一個包含以下選項的下拉式選單：
+管理頁面：開啟管理頁面，只有Super user才能存取。
+設定檔設定：開啟設定檔設定頁面。
+透過點擊“Admin Page”，Superuser將進入管理頁面，在那裡他們可以管理使用者和群組。 結論 &amp;nbsp; Langflow是一個強大的LLM flow管理工具，它提供了一個直觀和易於使用的界面來查看、管理和分享流程。通過My Collection頁面，用戶可以方便地查看和管理所有的流程，並可以將它們下載到本地保存以供將來使用。API keys功能讓用戶可以輕鬆地訪問Component和Flow，無需煩惱傳統的登入驗證問題。另外，用戶還可以通過個人資料設定來自定義和更改其個人資料，包括管理權限和群組設定等。而對於Superuser來說，他們還可以通過管理頁面來管理使用者和群組。總的來說，Langflow提供了一個全面的解決方案來管理語言流程，並且它的易用性和功能性使其成為一個理想的工具。</description>
+    </item>
+  </channel>
+</rss>
