@@ -6,10 +6,29 @@
     <description>Recent content in Blog on Dxxky - Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Langflow - 一種製作 LangChain 流程原型的簡單方法(介紹和安裝)</title>
+      <title>Langflow(二) - Langflow中可用的各種Component</title>
+      <link>https://example.org/blog/langflow_002/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/blog/langflow_002/</guid>
+      <description>我們上次已經熟悉了Langflow的安裝步驟和介面，這次我要跟大家分享langflow的各種元件，讓我們能夠利用這些元件來設計我們的langchain流程原型。
+基本上，Langflow的所有組件都是基於Langchain的，LangChain的主要組件包括以下幾個：
+LLM 介面
+LangChain 會提供 API，開發人員可以從其代碼連接和查詢 LLM。開發人員可執行簡單的 API 呼叫，而非編寫複雜的程式碼，以使用 LangChain 來與公有和專有模型（例如 GPT、Bard 和 PaLM）相互連接。 如果我們需要使用LLM，我們只需要填寫參數而非編寫複雜的程式碼，可以直接連接不同的LLM。 提示範本
+提示範本是開發人員使用的預先建置結構，以一致且精確地為 AI 模型的查詢格式化。開發人員可為聊天機器人應用程式建立提示範本、少量學習，或將特定指示傳遞至語言模型。此外，其可在不同的應用程式和語言模型中重複使用範本。 代理程式
+開發人員會使用 LangChain 提供的工具和程式庫來為複雜應用程式編寫和自訂現有鏈。代理程式是一個特殊鏈，其會提示語言模型以決定最佳順序來回應查詢。使用代理程式時，開發人員會提供使用者的輸入內容、可用工具，以及潛在的中繼步驟，以達到所需結果。然後，語言模型會傳回應用程式可採用之可行的行動序列。
+擷取模組
+LangChain 使用許多工具進行 RAG 系統的架構，可以轉換、儲存、搜尋和檢索資訊，以精簡語言模型回應的資訊。開發人員可使用字詞內嵌來建立資訊的語義表示，並將其儲存在本機或雲端向量資料庫中。
+記憶體
+部分對話語言模型應用程式會利用從過去互動中調用的資訊來精簡其回應。LangChain 允許開發人員在其系統中納入記憶體功能。支援內容：
+簡單的記憶體系統，可調用最近對話。 複雜的記憶體結構，可分析歷史訊息以傳回最相關的結果。 回呼
+回呼是開發人員放置在其應用程式中的代碼，以記錄、監控和串流 LangChain 操作中的特定事件。例如，開發人員可追蹤鏈的第一次呼叫時間以及回呼時遇到的錯誤。
+398 Views</description>
+    </item>
+    <item>
+      <title>Langflow(一) - 一種製作 LangChain 流程原型的簡單方法(介紹和安裝)</title>
       <link>https://example.org/blog/langflow_001/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://example.org/blog/langflow_001/</guid>
